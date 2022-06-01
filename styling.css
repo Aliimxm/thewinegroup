@@ -1,0 +1,306 @@
+*
+{
+    z-index: 0;
+}
+body
+{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.logo
+{
+    width:175px;
+     height:120px;
+}
+.navbar
+{
+    position: fixed;
+    z-index: 10;
+}
+.container-fluid
+{
+    padding: 0 7%;
+}
+.ourstory
+{
+    margin-left: 500px;
+}
+.navopts
+{
+    
+        padding-right: 70px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;
+}
+.topimg
+{
+    width: 100%;
+    height: 900px;
+}
+.bottomimg
+{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    bottom: 450px;
+    z-index: 0;
+}
+.footerimg
+{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    bottom: 400px;
+}
+.tagline
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    left: 800px;
+    bottom: 700px;
+}
+.para
+{
+    position: relative;
+    bottom: 700px;
+    padding-left: 800px;
+    padding-right: 200px;
+    display: inline-block;
+
+}
+.earned
+{
+    font-family: 'Tiro Devanagari Marathi', serif;
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+    font-size: 30px;
+    bottom: 700px;
+    left: 780px;
+}
+.about
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    display: inline-block;
+    bottom: 1225px;
+    left: 575px;
+    font-size: 50px;
+}
+.visit
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    left: 480px;
+    bottom: 425px;
+}
+.aboutus
+{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    bottom: 1200px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.shop
+{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    left: 500px;
+    bottom: 670px;
+}
+.visitus
+{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    bottom: 1180px;
+}
+.bottle
+{
+    height: 250px;
+    width: 70px;
+    position: relative;
+
+}
+.btn
+{
+    position: relative;
+    display: inline-block;
+    left: 520px;
+    bottom: 55px;
+}
+.submit
+{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+.form
+{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    bottom: 1150px;
+    left: 280px;
+}
+
+h1
+{
+    display: inline-block;
+}
+.p
+{
+    display: inline-block;
+}
+.bottlename
+{
+    position: relative;
+    display: inline-block;
+}
+.price
+{
+    position: relative;
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+}
+.p1
+{
+    top: 200px;
+    right: 250px;
+}
+.p2
+{
+    top: 200px;
+    right: 190px;
+}
+.p3
+{
+    top: 200px;
+    right: 250px;
+}
+.p4
+{
+    top: 200px;
+    right: 250px;
+
+}
+.b2
+{
+    right: 100px;
+    top: 150px;
+}
+.b3
+{
+    top: 150px;
+    right: 120px;
+
+}
+.b4
+{
+    top: 150px;
+    right: 130px;
+
+}
+.b1
+{
+    top: 150px;
+    right: 120px;
+}
+
+.secondsec
+{
+    position: relative;
+    bottom: 600px;
+    left: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.footlogo
+{
+    position: relative;
+    bottom: 850px;
+    right: 40px;
+    border: dotted white 5px;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:500px) {
+.topimg
+{
+    width: 100%;
+    height: 300px;
+}
+.logo
+{
+    width: 82px;
+    height: 60px;
+}
+.navbar
+{
+    width: 100%;
+    z-index: 1;
+}
+    .bottomimg
+    {
+        width: 100%;
+    height: 400px;
+    position: relative;
+    bottom: 800px;
+    }
+    .tagline
+    {
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+    z-index: 0;
+    position: relative;
+    font-size: 25px;
+    left: 400px;
+    bottom: 700px;
+    }
+    .ourstory
+    {
+        position: relative;
+
+    }
+    .navopts{
+        font-size: 20px;
+    }
+    .para
+    {
+        left: 500px;
+        bottom: 200px;
+        font-size: 10px;
+        z-index: 4;
+    }
+    .aboutus
+    {
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .about
+    {
+        bottom: 1200px;
+    left: 200px;
+    font-size: 25px;
+    }
+}
